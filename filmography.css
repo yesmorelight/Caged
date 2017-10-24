@@ -1,0 +1,132 @@
+/*---------------GENERAL---------------*/
+body {
+  background-color: #262626;
+  color: #DAECF3;
+  margin:0;
+  
+}
+
+.container{margin: 1rem;
+  
+}
+h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  margin:0;
+  padding: 1rem 0;
+}
+
+p {
+  font-family: 'Oxygen', sans-serif;  
+}
+
+a {
+  text-decoration: none;
+  color: #DAECF3;
+  cursor: pointer;
+}
+
+button {
+  width: 4.5rem;
+  height: 2rem;
+  margin-top: 2rem;
+  background-color: #024766;
+  border: none;
+  border-radius: 3px;
+  color: #DAECF3;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0D76A6;
+}
+/*___________________________________________*/
+
+
+/*--------------------NAV--------------------*/
+.navbar {
+  width:100%;
+  height:3rem;
+  background-color:#171717;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+}
+/*___________________________________________*/
+
+
+/*------------------FILM-NAV------------------*/
+.film-nav {
+  width: 100%;
+  height: auto;
+  background-color: #474747;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  text-align: justify;
+  padding: 1rem 1rem;
+}
+
+li:hover {
+  background-color: #0D76A6;
+}
+
+#f-n-show {
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;  
+}
+/*___________________________________________*/
+
+
+/*--------------------FILM-------------------*/
+.this-film {
+  margin-top: 3rem;  
+}
+
+#film-standin {
+  background-color: #474747;
+  height: 15rem;
+  width: 100%;
+  margin-top: -0.75rem;
+}
+/*___________________________________________*/
+
+
+/*---------------MEDIA QUERIES---------------*/
+@media only screen and (max-width: 700px) {
+  li {
+    display: block;
+    text-align: center;
+    padding: 0.2rem 0;
+    margin: 0;
+  }
+  
+  ul {
+    padding: 1.2rem 0;
+  }
+  
+  .film-nav {
+  width: 100%;
+  height: 12rem;
+  background-color: #474747;
+  }
+}
+/*___________________________________________*/
