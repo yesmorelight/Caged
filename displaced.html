@@ -1,147 +1,70 @@
-/*_____________GENERAL____________*/
+<!DOCTYPE html>
+<html>
 
-body {
-  margin: 0;
-  padding: 0;
-  color: #F0F0F0;
-}
+<head>
+  <title>CMP | Displaced</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script data-require="jquery@*" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lora|Oxygen|Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="filmography.css" />
+  <script src="script.js"></script>
+</head>
 
-.container {
-  padding: 3rem 8rem;
-}
+<body>
+  <div class="navbar">
+    <div class="title">
+      <h4><a href="index.html">CMP</a></h4>
+    </div>
+  </div>
 
-h1 {
-  font-size: 4.5rem;
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-  margin: 0;
-  padding: 12rem 0 0 0;
-  border-bottom: 3px solid #F0F0F0;
-}
+  <div class="film-nav">
+    <ul>
+      <li>
+        <a href="filmography.html">Light Bulb Sun (2012)</a>
+      </li>
+      <li>
+        <a href="ghostless_as_the_air.html">Ghostless as the Air (2013)</a>
+      </li>
+      <li>
+        <a href="displaced.html">Displaced (2013)</a>
+      </li>
+      <li>
+        <a href="blu_de_chanel.html">Blu de Chanel (2013)</a>
+      </li>
+      <li>
+        <a href="right_time_let_go.html">The Right Time to Let Go (2013)</a>
+      </li>
+      <li>
+        <a href="pink_&_blue.html">Pink & Blue (2013)</a>
+      </li>
+      <li>
+        <a href="death_by_design.html">Death by Design (2017)</a>
+      </li>
+    </ul>
+  </div>
 
-h3 {
-  font-family: 'Raleway', sans-serif;
-  margin: 0 0 1rem 0;
-}
+  <div class="container">
 
-p {
-  font-family: 'Oxygen', sans-serif;
-  margin: 0 0 1rem 0;
-  text-align: justify;
-}
+    <h5 id="f-n-show">▼</h5>
 
-ul {
-  list-style: none;
-  margin: 0.2rem 0 0 0;
-  padding: 0 0 12rem 0;
-  text-align: center;
-}
-li {
-  display: inline-block;
-  margin: 0 1.25rem;
-}
+    <div class="this-film">
+      <h3>Displaced (2013)</h3>
+      <div id="film-standin"></div>
+      <p>A Caged Magpie Production Presents Displaced, a story that tells the startlingly original and brutal story of a young couple who once achieved what they mostly desired and then lost it. Brendon (Elliot Winter) and Alex (Jasmine Atkins-Smart) are frozen in this numb reality with no hope of moving forward. Isolated from friends and family by their own actions can a young, naive couple break the ties of their tragic past and rebuild what they once had.<p>
+      <div class="more-buttons">
+        <button id="credits-button">CREDITS</button>
+        <button>
+          <a href="#">IMDB</a>
+        </button>
+      </div>
+      <div class="credits">
+        <div class="cast"></div>
+        <p><strong>Role</strong> - Name</p>
+        <p><strong>Role</strong> - Name</p>
+        <p><strong>Role</strong> - Name</p>
+      </div>
+    </div>
+  </div>
+</body>
 
-a {
-  font-family: 'Oxygen', sans-serif;
-  color: #F0F0F0;
-  text-decoration: none;
-}
-
-button {
-  width: 4.5rem;
-  height: 2rem;
-  background-color: #0A5B7F;
-  border: none;
-  border-radius: 3px;
-  color: #DAECF3;
-  font-family: 'Raleway', sans-serif;
-  cursor: pointer;
-}
-button:hover {
-  background-color: #0D76A6;
-}
-
-.para-background {
-  background-image: url("https://cdn.stocksnap.io/img-thumbs/960w/NVWUQSV08P.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.non-para-background {
-  background-color: #424242;
-}
-
-
-/*____________MAIN____________*/
-
-.head {
-  height: auto;
-}
-
-
-/*_______Featured Film________*/
-
-#film-standin {
-  width: 100%;
-  height: 25rem;
-  background-color: #666666;
-  margin-bottom: 1rem;
-}
-
-.credits {
-  margin-top: 1rem;
-}
-
-/*____________ABOUT___________*/
-#about-p {
-  margin: 5rem 0;
-}
-
-/*__________Contact___________*/
-
-label {
-  font-family: 'Raleway', sans-serif;
-}
-
-input[type=text],
-select,
-textarea {
-  width: 100%;
-  font-family: 'Oxygen', sans-serif;
-  margin-bottom: 1rem;
-  resize: vertical;
-  box-sizing:border-box;
-}
-
-input[type=submit] {
-  background-color: #0A5B7F;
-  font-family: 'Raleway', sans-serif;
-  color: white;
-  height: 3rem;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-  width: 100%;
-}
-input[type=submit]:hover {
-  background-color: #0D76A6;
-}
-
-
-/*_________MEDIA QUERIES________*/
-@media only screen and (max-width: 750px) {
-  .container {
-  padding: 3rem 1rem;
-  }
-  
-  h1 {
-    font-size: 2rem;
-  }
-  
-  li {
-    margin: 0 0.5rem;
-    display: block;
-  }
-}
+</html>
