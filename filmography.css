@@ -6,7 +6,15 @@ body {
   
 }
 
-.container{margin: 1rem;
+.container{margin: 1rem;}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
   
 }
 h3 {
@@ -91,7 +99,9 @@ li:hover {
 #f-n-show {
   cursor: pointer;
   text-align: center;
-  font-family: 'Oxygen', sans-serif;  
+  font-family: 'Oxygen', sans-serif;
+  
+  animation: fade 4s 1s infinite linear alternate;
 }
 /*___________________________________________*/
 
